@@ -1,0 +1,57 @@
+.PHONY: all clean
+
+MKDIR = mkdir
+RM = rm
+RMFLAGS = -rf
+CC = gcc
+
+#.o文件保存路径
+DIR_OBJS = objs
+#可执行文件保存路径
+DIR_EXES = exes
+#编译期间临时文件保存路径
+DIR_DEPS = deps
+DIRS = $(DIR_OBJS) $(DIR_EXES) $(DIR_DEPS)
+
+#最终的可执行程序
+EXE = complicated.exe
+EXE := $(addprefix $(DIR_EXES)/, $(EXE))
+
+#所有的.o文件，放在目录$(DIR_OBJS)中
+SRCS = $(wildcard *.c)
+OBJS = $(SRCS:.c=.o)
+OBJS := $(addprefix $(DIR_OBJS)/, $(OBJS))
+
+#所有的.dep文件(依赖文件)，放在目录$(DIR_DEPSA)中
+DEPS = $(SRCS:.c=.dep)
+DEPS := $(addprefix $(DIR_DEPS)/, $(DEPS))
+
+#所有的目标文件
+all:$(DIRS) $(DEPS) $(EXE)
+
+#创建目录
+$(DIRS):
+	$(MKDIR) $@
+
+#链接所有的.o文件生成最终可执行文件
+$(EXE):$(OBJS)
+	$(CC) -o $@ $^
+
+#生成所有的.o文件
+$(DIR_OBJS)/%.o: %.c
+	$(CC) -o $@ -c $^
+
+#存放所有的依赖文件
+#gcc -E -MM规则获取依赖关系
+$(DIR_DEPS)/%.dep: %.c
+	@echo "making $@ ..."
+	@set -e;\
+	$(RM) $(RMFLAGS) $@.tmp; \
+	$(CC) -E -MM $^ > $@.tmp; \
+	sed 's,\(.*\)\.o[ :],objs/\1.o:,g'<$@.tmp>$@;\
+	$(RM) $(RMFLAGS) $@.tmp
+
+
+clean:
+	$(RM) $(RMFLAGS) $(DIRS) $(EXE)
+

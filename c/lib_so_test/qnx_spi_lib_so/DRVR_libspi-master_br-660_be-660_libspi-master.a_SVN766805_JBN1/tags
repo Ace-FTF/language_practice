@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DCMD_SPI_GET_DEVINFO	prebuilt/usr/include/hw/spi-master.h	138;"	d
+DCMD_SPI_GET_DRVINFO	prebuilt/usr/include/hw/spi-master.h	137;"	d
+DCMD_SPI_SET_CONFIG	prebuilt/usr/include/hw/spi-master.h	136;"	d
+EARLY_DIRS	src/Makefile	/^EARLY_DIRS=lib$/;"	m
+EARLY_DIRS	src/hardware/Makefile	/^EARLY_DIRS=dma devu hwio$/;"	m
+INSTALLDIR	src/hardware/spi/master/common.mk	/^INSTALLDIR = sbin$/;"	m
+INSTALL_ROOT_nto	src/hardware/spi/master/common.mk	/^   INSTALL_ROOT_nto = $(PROJECT_ROOT)\/..\/..\/..\/..\/install$/;"	m
+IOFUNC_OCB_T	src/hardware/spi/master/proto.h	29;"	d
+LATE_DIRS	src/Makefile	/^LATE_DIRS=apps cgi$/;"	m
+LATE_DIRS	src/hardware/Makefile	/^LATE_DIRS=enum display can$/;"	m
+LIBS	src/hardware/spi/master/common.mk	/^LIBS = drvr$/;"	m
+LIST	src/Makefile	/^LIST=ALL$/;"	m
+LIST	src/hardware/Makefile	/^LIST=hardware$/;"	m
+LIST	src/hardware/spi/Makefile	/^LIST=BOARD$/;"	m
+LIST	src/hardware/spi/master/Makefile	/^LIST=CPU$/;"	m
+LIST	src/hardware/spi/master/arm/Makefile	/^LIST=VARIANT$/;"	m
+LIST	src/hardware/spi/master/x86/Makefile	/^LIST=VARIANT$/;"	m
+NAME	src/hardware/spi/master/common.mk	/^NAME := spi-$(NAME)$/;"	m
+NEWLINE	Makefile	/^define NEWLINE$/;"	m
+PINFO	src/hardware/spi/master/common.mk	/^define PINFO$/;"	m
+QCONFIG	Makefile	/^QCONFIG=qconfig.mk$/;"	m
+QCONFIG	src/hardware/spi/master/common.mk	/^QCONFIG=qconfig.mk$/;"	m
+QRDIR	src/hardware/spi/master/Makefile	/^QRDIR=$(dir $(QCONFIG))$/;"	m
+QRDIR	src/hardware/spi/master/arm/Makefile	/^QRDIR=$(dir $(QCONFIG))$/;"	m
+QRDIR	src/hardware/spi/master/x86/Makefile	/^QRDIR=$(dir $(QCONFIG))$/;"	m
+QRECURSE	src/hardware/spi/master/Makefile	/^QRECURSE=recurse.mk$/;"	m
+QRECURSE	src/hardware/spi/master/arm/Makefile	/^QRECURSE=recurse.mk$/;"	m
+QRECURSE	src/hardware/spi/master/x86/Makefile	/^QRECURSE=recurse.mk$/;"	m
+ROOT_DIR	Makefile	/^ROOT_DIR := $(notdir $(CURDIR))$/;"	m
+SPIDEV	prebuilt/usr/include/hw/spi-master.h	/^} SPIDEV;$/;"	t	typeref:struct:_spidev_entry_t
+SPI_CLIENTS_MAX	src/hardware/spi/master/proto.h	42;"	d
+SPI_DEV_DEFAULT	prebuilt/usr/include/hw/spi-master.h	85;"	d
+SPI_DEV_EXCHANGE	prebuilt/usr/include/hw/spi-master.h	92;"	d
+SPI_DEV_ID_MASK	prebuilt/usr/include/hw/spi-master.h	81;"	d
+SPI_DEV_ID_NONE	prebuilt/usr/include/hw/spi-master.h	82;"	d
+SPI_DEV_LOCK	prebuilt/usr/include/hw/spi-master.h	86;"	d
+SPI_DEV_READ	prebuilt/usr/include/hw/spi-master.h	93;"	d
+SPI_DEV_UNLOCK	prebuilt/usr/include/hw/spi-master.h	87;"	d
+SPI_DEV_WRITE	prebuilt/usr/include/hw/spi-master.h	94;"	d
+SPI_DEV_XFER_MASK	prebuilt/usr/include/hw/spi-master.h	90;"	d
+SPI_DEV_XFER_SHIFT	prebuilt/usr/include/hw/spi-master.h	91;"	d
+SPI_EVENT	src/hardware/spi/master/proto.h	44;"	d
+SPI_FEATURE_DMA	prebuilt/usr/include/hw/spi-master.h	55;"	d
+SPI_FEATURE_DMA_ALIGN	prebuilt/usr/include/hw/spi-master.h	56;"	d
+SPI_MODE_BODER_MSB	prebuilt/usr/include/hw/spi-master.h	65;"	d
+SPI_MODE_CHAR_LEN_MASK	prebuilt/usr/include/hw/spi-master.h	62;"	d
+SPI_MODE_CKPHASE_HALF	prebuilt/usr/include/hw/spi-master.h	64;"	d
+SPI_MODE_CKPOL_HIGH	prebuilt/usr/include/hw/spi-master.h	63;"	d
+SPI_MODE_CSHOLD_HIGH	prebuilt/usr/include/hw/spi-master.h	69;"	d
+SPI_MODE_CSPOL_HIGH	prebuilt/usr/include/hw/spi-master.h	67;"	d
+SPI_MODE_CSPOL_MASK	prebuilt/usr/include/hw/spi-master.h	66;"	d
+SPI_MODE_CSSTAT_HIGH	prebuilt/usr/include/hw/spi-master.h	68;"	d
+SPI_MODE_IDLE_INSERT	prebuilt/usr/include/hw/spi-master.h	74;"	d
+SPI_MODE_LOCKED	prebuilt/usr/include/hw/spi-master.h	76;"	d
+SPI_MODE_RDY_EDGE	prebuilt/usr/include/hw/spi-master.h	72;"	d
+SPI_MODE_RDY_LEVEL	prebuilt/usr/include/hw/spi-master.h	73;"	d
+SPI_MODE_RDY_MASK	prebuilt/usr/include/hw/spi-master.h	70;"	d
+SPI_MODE_RDY_NONE	prebuilt/usr/include/hw/spi-master.h	71;"	d
+SPI_PRIORITY	src/hardware/spi/master/proto.h	45;"	d
+SPI_RESMGR_MSGSIZE_MIN	src/hardware/spi/master/proto.h	41;"	d
+SPI_RESMGR_NPARTS_MIN	src/hardware/spi/master/proto.h	40;"	d
+SPI_REVISION	prebuilt/usr/include/hw/spi-master.h	44;"	d
+SPI_VERMAJOR_SHIFT	prebuilt/usr/include/hw/spi-master.h	41;"	d
+SPI_VERMINOR_SHIFT	prebuilt/usr/include/hw/spi-master.h	43;"	d
+SPI_VERREV_SHIFT	prebuilt/usr/include/hw/spi-master.h	45;"	d
+SPI_VERSION_MAJOR	prebuilt/usr/include/hw/spi-master.h	40;"	d
+SPI_VERSION_MINOR	prebuilt/usr/include/hw/spi-master.h	42;"	d
+SUFFIXES	Makefile	/^SUFFIXES := .mk$/;"	m
+USEFILE	src/hardware/spi/master/common.mk	/^USEFILE = $(PROJECT_ROOT)\/_spi_main.c$/;"	m
+USE_INSTALL_ROOT	src/hardware/spi/master/common.mk	/^   USE_INSTALL_ROOT=1$/;"	m
+UserParm	src/hardware/spi/master/_spi_main.c	/^char     *UserParm;$/;"	v
+_DCMD_SPI	prebuilt/usr/include/hw/spi-master.h	134;"	d
+_IOMGR_SPI	prebuilt/usr/include/hw/spi-master.h	106;"	d
+_SPI_DEV_EXCHANGE	src/hardware/spi/master/proto.h	49;"	d
+_SPI_DEV_READ	src/hardware/spi/master/proto.h	47;"	d
+_SPI_DEV_WRITE	src/hardware/spi/master/proto.h	48;"	d
+_SPI_IOMSG_CMDREAD	prebuilt/usr/include/hw/spi-master.h	113;"	d
+_SPI_IOMSG_DMAXCHANGE	prebuilt/usr/include/hw/spi-master.h	114;"	d
+_SPI_IOMSG_EXCHANGE	prebuilt/usr/include/hw/spi-master.h	112;"	d
+_SPI_IOMSG_READ	prebuilt/usr/include/hw/spi-master.h	110;"	d
+_SPI_IOMSG_WRITE	prebuilt/usr/include/hw/spi-master.h	111;"	d
+_SPI_MASTER_LIB_H_INCLUDED	prebuilt/usr/include/hw/spi-master.h	25;"	d
+_SPI_PROTO_H_INCLUDED	src/hardware/spi/master/proto.h	26;"	d
+_spi_close_ocb	src/hardware/spi/master/_spi_close_ocb.c	/^_spi_close_ocb(resmgr_context_t *ctp, void *reserved, spi_ocb_t *ocb)$/;"	f
+_spi_connect_funcs	src/hardware/spi/master/_spi_init_iofunc.c	/^resmgr_connect_funcs_t	_spi_connect_funcs;$/;"	v
+_spi_create_instance	src/hardware/spi/master/_spi_create_instance.c	/^int _spi_create_instance(spi_dev_t *dev)$/;"	f
+_spi_devctl	src/hardware/spi/master/_spi_devctl.c	/^_spi_devctl(resmgr_context_t *ctp, io_devctl_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_dlload	src/hardware/spi/master/_spi_dlload.c	/^void *_spi_dlload(void **hdl, const char *optarg)$/;"	f
+_spi_driver_thread	src/hardware/spi/master/_spi_create_instance.c	/^static void* _spi_driver_thread(void *data)$/;"	f	file:
+_spi_init_iofunc	src/hardware/spi/master/_spi_init_iofunc.c	/^int _spi_init_iofunc(void)$/;"	f
+_spi_io_funcs	src/hardware/spi/master/_spi_init_iofunc.c	/^resmgr_io_funcs_t		_spi_io_funcs;$/;"	v
+_spi_iomsg	src/hardware/spi/master/_spi_iomsg.c	/^_spi_iomsg(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_iomsg_cmdread	src/hardware/spi/master/_spi_iomsg_cmdread.c	/^_spi_iomsg_cmdread(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_iomsg_dmaxchange	src/hardware/spi/master/_spi_iomsg_dmaxchange.c	/^_spi_iomsg_dmaxchange(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_iomsg_read	src/hardware/spi/master/_spi_iomsg_read.c	/^_spi_iomsg_read(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_iomsg_write	src/hardware/spi/master/_spi_iomsg_write.c	/^_spi_iomsg_write(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_iomsg_xchange	src/hardware/spi/master/_spi_iomsg_xchange.c	/^_spi_iomsg_xchange(resmgr_context_t *ctp, io_msg_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_islock	src/hardware/spi/master/_spi_devlock.c	/^_spi_islock(resmgr_context_t *ctp, uint32_t device, spi_ocb_t *ocb)$/;"	f
+_spi_lock_check	src/hardware/spi/master/_spi_devlock.c	/^_spi_lock_check(resmgr_context_t *ctp, uint32_t device, spi_ocb_t *ocb)$/;"	f
+_spi_lock_dev	src/hardware/spi/master/_spi_devlock.c	/^_spi_lock_dev(resmgr_context_t *ctp, uint32_t device, spi_ocb_t *ocb)$/;"	f
+_spi_mount	src/hardware/spi/master/_spi_init_iofunc.c	/^iofunc_mount_t			_spi_mount = { 0, 0, 0, 0, &_spi_ocb_funcs };$/;"	v
+_spi_ocb_calloc	src/hardware/spi/master/_spi_ocb.c	/^_spi_ocb_calloc(resmgr_context_t *ctp, IOFUNC_ATTR_T *attr)$/;"	f
+_spi_ocb_free	src/hardware/spi/master/_spi_ocb.c	/^_spi_ocb_free(IOFUNC_OCB_T *ocb)$/;"	f
+_spi_ocb_funcs	src/hardware/spi/master/_spi_init_iofunc.c	/^iofunc_funcs_t			_spi_ocb_funcs = { _IOFUNC_NFUNCS, _spi_ocb_calloc, _spi_ocb_free };$/;"	v
+_spi_read	src/hardware/spi/master/_spi_read.c	/^_spi_read(resmgr_context_t *ctp, io_read_t *msg, spi_ocb_t *ocb)$/;"	f
+_spi_register_interface	src/hardware/spi/master/_spi_create_instance.c	/^static int _spi_register_interface(void *data)$/;"	f	file:
+_spi_slogf	src/hardware/spi/master/_spi_slogf.c	/^_spi_slogf(const char *fmt, ...)$/;"	f
+_spi_unlock_dev	src/hardware/spi/master/_spi_devlock.c	/^_spi_unlock_dev(resmgr_context_t *ctp, uint32_t device, spi_ocb_t *ocb)$/;"	f
+_spi_write	src/hardware/spi/master/_spi_write.c	/^_spi_write(resmgr_context_t *ctp, io_write_t *msg, spi_ocb_t *ocb)$/;"	f
+_spidev_entry_t	prebuilt/usr/include/hw/spi-master.h	/^typedef struct _spidev_entry_t {$/;"	s
+attr	prebuilt/usr/include/hw/spi-master.h	/^	iofunc_attr_t	attr;$/;"	m	struct:_spidev_entry_t
+buf	src/hardware/spi/master/proto.h	/^	uint8_t				*buf;$/;"	m	struct:spi_dev
+buflen	src/hardware/spi/master/proto.h	/^	unsigned			buflen;$/;"	m	struct:spi_dev
+cfg	prebuilt/usr/include/hw/spi-master.h	/^	spi_cfg_t	cfg;		\/* Device configuration *\/$/;"	m	struct:__anon3
+chid	src/hardware/spi/master/proto.h	/^	int					chid;$/;"	m	struct:spi_dev
+chip	src/hardware/spi/master/proto.h	/^	uint32_t			chip;$/;"	m	struct:spi_ocb
+clock_rate	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	clock_rate;$/;"	m	struct:__anon2
+coid	src/hardware/spi/master/proto.h	/^	int					coid;$/;"	m	struct:spi_dev
+ctp	src/hardware/spi/master/proto.h	/^	dispatch_context_t	*ctp;$/;"	m	struct:spi_dev
+device	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	device;		\/* Device ID *\/$/;"	m	struct:__anon3
+device	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	device;$/;"	m	struct:__anon4
+device	src/hardware/spi/master/proto.h	/^	uint32_t			device;		\/* Device *\/$/;"	m	struct:spi_lock
+devinfo	prebuilt/usr/include/hw/spi-master.h	/^	int		(*devinfo)(void *hdl, uint32_t device, spi_devinfo_t *info);$/;"	m	struct:__anon6
+devnum	src/hardware/spi/master/proto.h	/^	int					devnum;$/;"	m	struct:spi_dev
+devperm	src/hardware/spi/master/_spi_main.c	/^unsigned devperm;$/;"	v
+dlhdl	src/hardware/spi/master/proto.h	/^	void				*dlhdl;$/;"	m	struct:spi_dev
+dma_xfer	prebuilt/usr/include/hw/spi-master.h	/^	int		(*dma_xfer)(void *hdl, uint32_t device, spi_dma_paddr_t *paddr, int len);$/;"	m	struct:__anon6
+dmabuf	src/hardware/spi/master/proto.h	/^	uint8_t				*dmabuf;$/;"	m	struct:spi_dev
+dpp	src/hardware/spi/master/proto.h	/^	dispatch_t			*dpp;$/;"	m	struct:spi_dev
+drvhdl	src/hardware/spi/master/proto.h	/^	void				*drvhdl;$/;"	m	struct:spi_dev
+drvinfo	prebuilt/usr/include/hw/spi-master.h	/^	int		(*drvinfo)(void *hdl, spi_drvinfo_t *info);$/;"	m	struct:__anon6
+feature	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	feature;$/;"	m	struct:__anon1
+fini	prebuilt/usr/include/hw/spi-master.h	/^	void	(*fini)(void *hdl);$/;"	m	struct:__anon6
+funcs	src/hardware/spi/master/proto.h	/^	spi_funcs_t			*funcs;$/;"	m	struct:spi_dev
+hdl	prebuilt/usr/include/hw/spi-master.h	/^	void			*hdl;		\/* Pointer to high-level handle *\/$/;"	m	struct:_spidev_entry_t
+hdr	src/hardware/spi/master/proto.h	/^	iofunc_ocb_t		hdr;$/;"	m	struct:spi_ocb
+id	src/hardware/spi/master/proto.h	/^	int					id;$/;"	m	struct:spi_dev
+init	prebuilt/usr/include/hw/spi-master.h	/^	void*	(*init)(void *hdl, char *options);$/;"	m	struct:__anon6
+lock	prebuilt/usr/include/hw/spi-master.h	/^	void			*lock;		\/* Pointer to lock list *\/$/;"	m	struct:_spidev_entry_t
+main	src/hardware/spi/master/_spi_main.c	/^int main(int argc, char *argv[])$/;"	f
+mode	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	mode;$/;"	m	struct:__anon2
+msg_hdr	prebuilt/usr/include/hw/spi-master.h	/^	io_msg_t	msg_hdr;$/;"	m	struct:__anon4
+name	prebuilt/usr/include/hw/spi-master.h	/^	char		name[16];	\/* Device description *\/$/;"	m	struct:__anon3
+name	prebuilt/usr/include/hw/spi-master.h	/^	char		name[16];	\/* Driver name *\/$/;"	m	struct:__anon1
+next	src/hardware/spi/master/proto.h	/^	struct spi_lock		*next;$/;"	m	struct:spi_lock	typeref:struct:spi_lock::spi_lock
+next	src/hardware/spi/master/proto.h	/^	void				*next;$/;"	m	struct:spi_dev
+opts	src/hardware/spi/master/proto.h	/^	char				*opts;$/;"	m	struct:spi_dev
+owner	src/hardware/spi/master/proto.h	/^	spi_ocb_t			*owner;		\/* Owner *\/$/;"	m	struct:spi_lock
+rpaddr	prebuilt/usr/include/hw/spi-master.h	/^	uint64_t	rpaddr;$/;"	m	struct:__anon5
+setcfg	prebuilt/usr/include/hw/spi-master.h	/^	int		(*setcfg)(void *hdl, uint16_t device, spi_cfg_t *cfg);$/;"	m	struct:__anon6
+size	prebuilt/usr/include/hw/spi-master.h	/^	size_t	size;$/;"	m	struct:__anon6
+spi_cfg_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_cfg_t;$/;"	t	typeref:struct:__anon2
+spi_dev	src/hardware/spi/master/proto.h	/^typedef struct spi_dev {$/;"	s
+spi_dev_t	src/hardware/spi/master/proto.h	/^} spi_dev_t;$/;"	t	typeref:struct:spi_dev
+spi_devinfo_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_devinfo_t;$/;"	t	typeref:struct:__anon3
+spi_dma_paddr_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_dma_paddr_t;$/;"	t	typeref:struct:__anon5
+spi_drvinfo_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_drvinfo_t;$/;"	t	typeref:struct:__anon1
+spi_funcs_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_funcs_t;$/;"	t	typeref:struct:__anon6
+spi_lock	src/hardware/spi/master/proto.h	/^typedef struct spi_lock {$/;"	s
+spi_lock_t	src/hardware/spi/master/proto.h	/^} spi_lock_t;$/;"	t	typeref:struct:spi_lock
+spi_msg_t	prebuilt/usr/include/hw/spi-master.h	/^} spi_msg_t;$/;"	t	typeref:struct:__anon4
+spi_ocb	src/hardware/spi/master/proto.h	/^typedef struct spi_ocb {$/;"	s
+spi_ocb_t	src/hardware/spi/master/proto.h	/^} spi_ocb_t;$/;"	t	typeref:struct:spi_ocb
+subdirs	Makefile	/^subdirs:=$(subst \/Makefile,,$(wildcard *\/[Mm]akefile))$/;"	m
+tid	src/hardware/spi/master/proto.h	/^	pthread_t			tid;$/;"	m	struct:spi_dev
+version	prebuilt/usr/include/hw/spi-master.h	/^	uint32_t	version;$/;"	m	struct:__anon1
+wpaddr	prebuilt/usr/include/hw/spi-master.h	/^	uint64_t	wpaddr;$/;"	m	struct:__anon5
+xfer	prebuilt/usr/include/hw/spi-master.h	/^	void*	(*xfer)(void *hdl, uint32_t device, uint8_t *buf, int *len);$/;"	m	struct:__anon6
+xlen	prebuilt/usr/include/hw/spi-master.h	/^	int32_t		xlen;$/;"	m	struct:__anon4
